@@ -1,3 +1,11 @@
+# Overview
+Simple app to calculate a tip. I initially created it based on an example application I was following in this training program: [Functional Programming for Beginners with JavaScript](https://www.knowthen.com/functional-programming-for-beginners-with-javascript), provided by [KnowThen](https://www.knowthen.com/) all credit goes to [James Moore](https://github.com/knowthen) for the inspiration.
+
+<img src="/docs/assets/images/in-action.gif" />
+
+Try it out here: https://tip-calculator-b3f4d.web.app/
+
+# Running
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
