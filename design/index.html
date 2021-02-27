@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tip Calculator</title>
+  <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+  <div id="app">
+    <header><span>Tip Calculator</span></header>
+    <main>
+      <p class="page-instructions">Enter the amount you would like to calculate in the subtotal and select a tip
+        percentage. The tip and total amounts are calculated automatically.</p>
+      <section class="calculator">
+        <div class="input-group">
+          <label for="subtotal"><span>Subtotal</span></label>
+          <input id="subtotal" class="input" placeholder="0.00" type="number" min="0.01" max="999999.99" step=".01">
+        </div>
+        <div class="input-group">
+          <label for="tipPercentage"><span>Tip</span></label>
+          <select id="tipPercentage" class="input">
+            <option value="1">1%</option>
+            <option value="2">2%</option>
+            <option value="3">3%</option>
+          </select>
+        </div>
+      </section>
+      <section class="calculation-results">
+        <div class="calculation-result-group">
+          <div id="tipAmount" class="calculation-result">$0.00</div>
+          <label for="tipAmount">Tip Amount</label>
+        </div>
+        <div class="calculation-result-group">
+          <div id="totalAmount" class="calculation-result">$0.00</div>
+          <label for="totalAmount">Total Amount</label>
+        </div>
+      </section>
+    </main>
+    <footer>v0.2.0</footer>
+  </div>
+</body>
+
+</html>
