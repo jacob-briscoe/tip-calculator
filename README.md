@@ -4,7 +4,7 @@ Simple app to calculate a tip. I initially created it based on an example applic
 <img src="/docs/assets/images/in-action.gif" />
 
 # Running
-This project was bootstrapped with [https://guide.elm-lang.org/install/elm.html](elm --init )
+This project was bootstrapped with [elm --init](https://guide.elm-lang.org/install/elm.html)
 
 ## Available Scripts
 
